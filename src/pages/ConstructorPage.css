@@ -4,7 +4,8 @@
     display: flex;
     align-items: center;
     gap: 20%;
-    background-color: #6E6D7D;
+    background-color: #6e6d7d;
+    justify-content: center;
 }
 
 .avatar-options {
@@ -21,12 +22,47 @@
     background-color: var(--color_white);
 }
 
-.ui-bar {
-    background-color: var(--color_gray);
+.avatar-view .view-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 90.25%;
+    position: relative;
+}
+
+.ui-bar {
+    padding-inline: 20px;
+    background-color: var(--color_gray);
     height: 64px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.ui-bar .buttons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.option-case {
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    border-bottom: 1px solid;
+    color: var(--color_gray);
+    gap: 20px;
+}
+
+.option-case h3 {
+    font-weight: 500;
+}
+
+.option-case .buttons {
+    display: flex;
+    gap: 20px;
 }

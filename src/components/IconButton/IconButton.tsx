@@ -4,13 +4,14 @@ import "./IconButton.css";
 
 interface IconButtonProps {
   icon: string;
+  title:string; 
   onClick: () => void;
 }
 
-const IconButton: React.FC<IconButtonProps> = ({ icon, onClick }) => {
+const IconButton: React.FC<IconButtonProps> = ({ icon, title,onClick }) => {
   return (
-    <button className="icon-button" onClick={onClick}>
-      <img src={icon} alt="path" />
+    <button title={title} className="icon-button" onClick={onClick}>
+      <img src={icon} alt="path"/>
     </button>
   );
 }
