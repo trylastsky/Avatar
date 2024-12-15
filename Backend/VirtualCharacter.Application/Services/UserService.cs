@@ -27,6 +27,14 @@ namespace VirtualCharacter.Application.Services
 
         public async Task CreateNewUser(string userName, string email, string phoneNumber, string password)
         {
+            var userPhone = await _userRepository.GetUserByPhoneAsync(phoneNumber);
+            var userEmail = await _userRepository.GetUserByEmailAsync(email);
+
+            if(userPhone != null || userEmail != null)
+            {
+                return;   
+            }
+
             var hashedPassword = _passwordHasher.Generate(password);
 
             var newUser = new User
@@ -43,6 +51,7 @@ namespace VirtualCharacter.Application.Services
         public async Task<string> Login(string emailOrPhone, string password)
         {
             var user = await _userRepository.GetUserByPhoneAsync(emailOrPhone);
+
             if (user == null)
             {
                 user = await _userRepository.GetUserByEmailAsync(emailOrPhone);

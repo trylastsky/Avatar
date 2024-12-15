@@ -6,7 +6,6 @@ using VirtualCharacter.Core.Models;
 
 namespace VirtualCharacter.API.Controllers;
 
-[Authorize]
 [ApiController]
 [Route("api/[controller]")]
 public class CharacterController : ControllerBase

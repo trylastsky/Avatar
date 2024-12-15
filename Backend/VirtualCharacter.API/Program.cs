@@ -43,7 +43,7 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("http://localhost:5089");
+        policy.WithOrigins("http://26.170.65.19:3000");
         policy.AllowAnyHeader();
         policy.AllowAnyMethod();
     });
@@ -60,6 +60,7 @@ if (app.Environment.IsDevelopment())
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.UseCors();
 app.MapControllers();
 
-app.Run();
+app.Run("http://0.0.0.0:5089");

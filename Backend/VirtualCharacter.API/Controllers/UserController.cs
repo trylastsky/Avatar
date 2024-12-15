@@ -22,7 +22,7 @@ namespace VirtualCharacter.API.Controllers
 
             var user = await _userService.GetAuthenticatedUserById(token);
 
-            var userMv = new UserModelView
+            var userMv = new UserRegistrationModelView
             {
                 UserName = user.UserName,
                 Email = user.Email,
@@ -33,9 +33,9 @@ namespace VirtualCharacter.API.Controllers
         }
 
         [HttpPost("Login")]
-        public async Task<ActionResult> Login(string emailOrPhone, string password)
+        public async Task<ActionResult> Login([FromBody] UserLoginModelView user)
         {
-            var token = await _userService.Login(emailOrPhone, password);
+            var token = await _userService.Login(user.PhoneOrEmail, user.Password);
 
             Response.Cookies.Append("OnlyGodKnowsWhatTheseCookiesAre", token);
 
@@ -43,9 +43,9 @@ namespace VirtualCharacter.API.Controllers
         }
 
         [HttpPost("Registration")]
-        public async Task<ActionResult> Registration(string userName, string email, string phone, string password)
+        public async Task<ActionResult> Registration([FromBody] UserRegistrationModelView userModelView)
         {
-            await _userService.CreateNewUser(userName, email, phone, password);
+            await _userService.CreateNewUser(userModelView.UserName, userModelView.Email, userModelView.PhoneNumber, userModelView.Password);
             return Ok();
         }
     }
