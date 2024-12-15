@@ -1,0 +1,40 @@
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Infrastructure.deps.json
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Infrastructure.runtimeconfig.json
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Infrastructure.dll
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Infrastructure.pdb
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Application.dll
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Core.dll
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Application.pdb
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Core.pdb
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.AssemblyInfo.cs
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.sourcelink.json
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualC.46A4D390.Up2Date
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.dll
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\refint\VirtualCharacter.Infrastructure.dll
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.pdb
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.genruntimeconfig.cache
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Infrastructure\obj\Debug\net8.0\ref\VirtualCharacter.Infrastructure.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Infrastructure.deps.json
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Infrastructure.runtimeconfig.json
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Infrastructure.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Infrastructure.pdb
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Application.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Core.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Application.pdb
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\bin\Debug\net8.0\VirtualCharacter.Core.pdb
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.AssemblyInfo.cs
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.sourcelink.json
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualC.46A4D390.Up2Date
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\refint\VirtualCharacter.Infrastructure.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.pdb
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\VirtualCharacter.Infrastructure.genruntimeconfig.cache
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Infrastructure\obj\Debug\net8.0\ref\VirtualCharacter.Infrastructure.dll

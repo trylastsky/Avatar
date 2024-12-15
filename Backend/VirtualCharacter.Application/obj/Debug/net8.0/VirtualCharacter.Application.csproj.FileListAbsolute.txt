@@ -1,0 +1,32 @@
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\bin\Debug\net8.0\VirtualCharacter.Application.deps.json
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\bin\Debug\net8.0\VirtualCharacter.Application.dll
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\bin\Debug\net8.0\VirtualCharacter.Application.pdb
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\bin\Debug\net8.0\VirtualCharacter.Core.dll
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\bin\Debug\net8.0\VirtualCharacter.Core.pdb
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.csproj.AssemblyReference.cache
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.AssemblyInfoInputs.cache
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.AssemblyInfo.cs
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.csproj.CoreCompileInputs.cache
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.sourcelink.json
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\VirtualC.B12DA000.Up2Date
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.dll
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\refint\VirtualCharacter.Application.dll
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.pdb
+C:\Users\Jorik Mantana\RiderProjects\VirtualCharacter\VirtualCharacter.Application\obj\Debug\net8.0\ref\VirtualCharacter.Application.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\bin\Debug\net8.0\VirtualCharacter.Application.deps.json
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\bin\Debug\net8.0\VirtualCharacter.Application.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\bin\Debug\net8.0\VirtualCharacter.Application.pdb
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\bin\Debug\net8.0\VirtualCharacter.Core.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\bin\Debug\net8.0\VirtualCharacter.Core.pdb
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.csproj.AssemblyReference.cache
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.AssemblyInfoInputs.cache
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.AssemblyInfo.cs
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.csproj.CoreCompileInputs.cache
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.sourcelink.json
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\VirtualC.B12DA000.Up2Date
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\refint\VirtualCharacter.Application.dll
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\VirtualCharacter.Application.pdb
+C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Application\obj\Debug\net8.0\ref\VirtualCharacter.Application.dll

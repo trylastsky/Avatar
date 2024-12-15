@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5bHnN5hUCmPZhtyQEe0eBoyGiwWn1MbPA+UlWKMe2Lc=",
+  "Source": "VirtualCharacter.API",
+  "BasePath": "_content/VirtualCharacter.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

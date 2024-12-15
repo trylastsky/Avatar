@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VirtualCharacter.Application/1.0.0": {
+        "dependencies": {
+          "VirtualCharacter.Core": "1.0.0"
+        },
+        "runtime": {
+          "VirtualCharacter.Application.dll": {}
+        }
+      },
+      "VirtualCharacter.Core/1.0.0": {
+        "runtime": {
+          "VirtualCharacter.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VirtualCharacter.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VirtualCharacter.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
