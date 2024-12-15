@@ -1,26 +1,42 @@
-import React, { useState } from 'react';
-import IconButton from '../IconButton/IconButton';
+import React, { useEffect, useState } from 'react';
+import { registrationPost, loginPost } from '../../services/api';
 import x_icon from "../../assets/icons/svg/X.svg";
+import './AuthModal.css';
 
-import './AuthModal.css'; // Необходимо создать файл CSS для стилей модального окна
+interface AuthModalProps {
+    isOpen: boolean;         
+    onClose: () => void;     
+}
 
-const AuthModal:React.FC = ({ isOpen, onClose }) => {
-    const [isRegister, setIsRegister] = useState(false);
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
+    const [isRegister, setIsRegister] = useState<boolean>(false);
+    const [username, setUsername] = useState<string>('');
+    const [email, setEmail] = useState<string>('');
+    const [emailOrPhone, setEmailOrPhone] = useState<string>('');
+    const [password, setPassword] = useState<string>('');
+    const [phoneNumber, setPhone] = useState<string>(''); // Не забудьте добавить телефон в состояние
 
-    const handleSubmit = (e: { preventDefault: () => void; }) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        if(isRegister) registrationPost(username, email, phoneNumber,password).then(status => console.log(status));
+        else if (!isRegister) loginPost(emailOrPhone, password).then(status => console.log(status));
+        localStorage.setItem('username', username);
+        localStorage.setItem('email', email);
+        localStorage.setItem('phoneNumber', phoneNumber);
         e.preventDefault();
-        // Здесь будет логика обработки регистрации/входа
-        console.log(isRegister ? 'Registering' : 'Logging in', { email, password });
-        // После успешной операции, возможно, нужно будет сбросить поля и закрыть модал
-        resetForm();
-        onClose();
+        resetForm(); // Сбрасываем форму после отправки
+        onClose(); // Закрываем модал
     };
 
+
+
+
+
+
     const resetForm = () => {
+        setUsername('');
         setEmail('');
         setPassword('');
+        setPhone(''); // Сброс телефона
     };
 
     const toggleForm = () => {
@@ -33,21 +49,33 @@ const AuthModal:React.FC = ({ isOpen, onClose }) => {
         <div className="modal-overlay">
             <div className="modal-content">
                 <div className='space-beetwen'>
-                <h2>{isRegister ? 'Регистрация' : 'Авторизация'}</h2>
-                <button className='close-button' onClick={onClose}><img src={x_icon} alt="X" /></button>
+                    <h2>{isRegister ? 'Регистрация' : 'Авторизация'}</h2>
+                    <button className='close-button' onClick={onClose}>
+                        <img src={x_icon} alt="Закрыть" />
+                    </button>
                 </div>
-             <div className="logo"><p>Avatar</p></div>
+                <div className="logo"><p>Avatar</p></div>
                 <form onSubmit={handleSubmit}>
-                    {isRegister && (<> 
-                        <h3>Имя пользователя</h3>
-                    <input
-                        type="username"
-                        placeholder="Введите ваше имя"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        required
-                    /></>)}
-                    <h3>Телефон или почта</h3>
+                    {isRegister && (
+                        <>
+                            <h3>Имя пользователя</h3>
+                            <input
+                                type="text"
+                                placeholder="Введите ваше имя"
+                                value={username}
+
+                                onChange={(e) => setUsername(e.target.value)}
+                                required
+                            />
+                            <h3>Телефон</h3>
+                            <input
+                                type="text"
+                                placeholder="Введите ваш номер телефона"
+                                value={phoneNumber}
+                                onChange={(e) => setPhone(e.target.value)}
+                                required
+                            />
+                    <h3>Почта</h3>
                     <input
                         type="email"
                         placeholder="Введите вашу почту"
@@ -55,7 +83,19 @@ const AuthModal:React.FC = ({ isOpen, onClose }) => {
                         onChange={(e) => setEmail(e.target.value)}
                         required
                     />
-                      <h3>Пароль</h3>
+                        </>
+                    )}
+                    {!isRegister && (<>
+                        <h3>Телефон или Почта</h3>
+                    <input
+                        type="text"
+                        placeholder="Введите логин"
+                        value={emailOrPhone}
+                        onChange={(e) => setEmailOrPhone(e.target.value)}
+                        required
+                    />
+                    </>)}
+                    <h3>Пароль</h3>
                     <input
                         type="password"
                         placeholder="Введите ваш пароль"

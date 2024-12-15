@@ -1095,12 +1095,18 @@
           "VirtualCharacter.Core": "1.0.0"
         },
         "runtime": {
-          "VirtualCharacter.Application.dll": {}
+          "VirtualCharacter.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "VirtualCharacter.Core/1.0.0": {
         "runtime": {
-          "VirtualCharacter.Core.dll": {}
+          "VirtualCharacter.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "VirtualCharacter.Infrastructure/1.0.0": {
@@ -1112,7 +1118,10 @@
           "VirtualCharacter.Application": "1.0.0"
         },
         "runtime": {
-          "VirtualCharacter.Infrastructure.dll": {}
+          "VirtualCharacter.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

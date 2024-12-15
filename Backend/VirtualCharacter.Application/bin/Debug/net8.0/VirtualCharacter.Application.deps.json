@@ -16,7 +16,10 @@
       },
       "VirtualCharacter.Core/1.0.0": {
         "runtime": {
-          "VirtualCharacter.Core.dll": {}
+          "VirtualCharacter.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -5,12 +5,14 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import ConstructorPage from './pages/ConstructorPage';
 import AuthModal from './components/AuthModal/AuthModal';
+import Profile from './pages/Profil/Profil';
 
 import './App.css';
 
 function App() {
 
   const [isModalAuthOpen, setModalAuthOpen] = useState<boolean>(false);
+
 
 
     
@@ -20,7 +22,7 @@ function App() {
         <AuthModal isOpen={isModalAuthOpen} onClose={() => setModalAuthOpen(false)} />
       <Routes>
         <Route path="/" element={<ConstructorPage />} />
-
+        <Route path="/profile" element={<Profile></Profile>} />
       </Routes>
       <Footer/>
     </Router>
