@@ -13,9 +13,11 @@
     height: 652px;
     background-color: var(--color_white);
     border-radius: 5px;
+    overflow-y: auto;
 }
 
 .avatar-view {
+    overflow-y: auto;
     border-radius: 5px;
     width: 559px;
     height: 652px;

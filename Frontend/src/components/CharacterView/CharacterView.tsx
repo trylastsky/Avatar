@@ -1,5 +1,4 @@
 import React, {useRef, useEffect} from "react";
-
 // images
 
 //body
@@ -18,11 +17,13 @@ import tshirtImage from "../../assets/Avatar_components/outerwear/tshirt.svg"; /
 //pants
 import shortsImage from "../../assets/Avatar_components/pants/shorts.svg"; //1
 import jeansImage from "../../assets/Avatar_components/pants/jeans.svg"; //2
+import brukiImage from "../../assets/Avatar_components/pants/bruki.svg"; //3
+import bridgiImage from "../../assets/Avatar_components/pants/bridgi.svg";
 
 import "./CharacterView.css";
 
 interface CharacterCustomizationProps {
-	gender: string;
+	gender: string | null;
 	hair: number | null;
 	outerwear: number | null;
 	pants: number | null;
@@ -54,6 +55,8 @@ const CharacterView: React.FC<CharacterCustomizationProps> = ({
 	//pants
 	const shortsImg = new Image();
 	const jeansImg = new Image();
+  const brukiImg = new Image();
+  const bridgiImg = new Image();
 
 	// Загрузка изображений
 	useEffect(() => {
@@ -71,6 +74,8 @@ const CharacterView: React.FC<CharacterCustomizationProps> = ({
 		//pants
 		shortsImg.src = shortsImage;
 		jeansImg.src = jeansImage;
+    brukiImg.src = brukiImage;
+    bridgiImg.src = bridgiImage;
 	});
 
 	const drawCharacter = () => {
@@ -191,9 +196,65 @@ const CharacterView: React.FC<CharacterCustomizationProps> = ({
               jeansImg.height * scaleFactor
             );
             break;
+          case 3:
+              ctx.drawImage(
+                brukiImg,
+                243,
+                300,
+                brukiImg.width * scaleFactor,
+                brukiImg.height * scaleFactor
+              );
+              break;
+          case 4:
+                ctx.drawImage(
+                  bridgiImg,
+                  244,
+                  300,
+                  bridgiImg.width * scaleFactor,
+                  bridgiImg.height * scaleFactor
+                );
+                break;
         }
-      }
 
+        switch (boots) {
+          case 1:
+            ctx.drawImage(
+              shortsImg,
+              244,
+              300,
+              shortsImg.width * scaleFactor,
+              shortsImg.height * scaleFactor
+            );
+            break;
+          case 2:
+            ctx.drawImage(
+              jeansImg,
+              243,
+              300,
+              jeansImg.width * scaleFactor,
+              jeansImg.height * scaleFactor
+            );
+            break;
+          case 3:
+              ctx.drawImage(
+                brukiImg,
+                243,
+                300,
+                brukiImg.width * scaleFactor,
+                brukiImg.height * scaleFactor
+              );
+              break;
+          case 4:
+                ctx.drawImage(
+                  bridgiImg,
+                  244,
+                  300,
+                  bridgiImg.width * scaleFactor,
+                  bridgiImg.height * scaleFactor
+                );
+                break;
+        }
+        }
 		}
 	};
 

@@ -5,6 +5,7 @@ import IconButton from "../components/IconButton/IconButton";
 //icons
 import save from "../assets/icons/svg/save.svg";
 import x_icon from "../assets/icons/svg/X.svg";
+import refresh_icon from "../assets/icons/svg/refresh.svg";
 
 import hair1 from "../assets/Avatar_components/hairs/hair1.svg";
 import hair2 from "../assets/Avatar_components/hairs/hair2.svg";
@@ -16,6 +17,8 @@ import tshirt from "../assets/Avatar_components/outerwear/tshirt.svg";
 
 import shorts from "../assets/Avatar_components/pants/shorts.svg";
 import jeans from "../assets/Avatar_components/pants/jeans.svg";
+import bruki from "../assets/Avatar_components/pants/bruki.svg";
+import bridgi from "../assets/Avatar_components/pants/bridgi.svg";
 
 import male_cube from "../assets/icons/svg/male_cube.svg";
 import female_cube from "../assets/icons/svg/female_cube.svg";
@@ -56,12 +59,20 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={save}
                   title="Случайная генерация"
+                  width={32}
                   onClick={() => console.log("cлучайная генерация")}
                 />
                 <IconButton
-                  icon={save}
+                  icon={refresh_icon}
                   title="Сбросить настройки"
-                  onClick={() => console.log("сбросить настройки")}
+                  width={32}
+                  onClick={() => {
+                    setGender("male");
+                    setHair(null);
+                    setOuterwear(null);
+                    setPants(null);
+                    setBoots(null);
+                  }}
                 />
               </div>
             </div>
@@ -71,6 +82,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={male_cube}
                   title="мужской пол"
+                  width={64}
                   onClick={() => {
                     setGender("male");
                   }}
@@ -78,6 +90,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={female_cube}
                   title="женский пол"
+                  width={64}
                   onClick={() => {
                     setGender("female");
                   }}
@@ -91,6 +104,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={x_icon}
                   title="Без прически"
+                  width={64}
                   onClick={() => {
                     setHair(null);
                   }}
@@ -98,6 +112,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={hair1}
                   title="На бок"
+                  width={64}
                   onClick={() => {
                     setHair(1);
                   }}
@@ -105,6 +120,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={hair2}
                   title="Пробор"
+                  width={64}
                   onClick={() => {
                     setHair(2);
                   }}
@@ -112,6 +128,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={hair3}
                   title="Косичка"
+                  width={64}
                   onClick={() => {
                     setHair(3);
                   }}
@@ -119,6 +136,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={hair4}
                   title="Прическа ''Шторы''"
+                  width={64}
                   onClick={() => {
                     setHair(4);
                   }}
@@ -131,6 +149,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={x_icon}
                   title="Без одежды"
+                  width={64}
                   onClick={() => {
                     setOuterwear(null);
                   }}
@@ -138,6 +157,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={hudi}
                   title="Худи"
+                  width={64}
                   onClick={() => {
                     setOuterwear(1);
                   }}
@@ -145,6 +165,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={tshirt}
                   title="Футболка"
+                  width={64}
                   onClick={() => {
                     setOuterwear(2);
                   }}
@@ -152,6 +173,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={hudi}
                   title="Худи"
+                  width={64}
                   onClick={() => {
                     setOuterwear(3);
                   }}
@@ -159,6 +181,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={hudi}
                   title="Худи"
+                  width={64}
                   onClick={() => {
                     setOuterwear(4);
                   }}
@@ -171,6 +194,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={x_icon}
                   title="Без штанов"
+                  width={64}
                   onClick={() => {
                     setPants(null);
                   }}
@@ -178,6 +202,7 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={shorts}
                   title="Шорты"
+                  width={64}
                   onClick={() => {
                     setPants(1);
                   }}
@@ -185,20 +210,68 @@ const ConstructorPage: React.FC = () => {
                 <IconButton
                   icon={jeans}
                   title="Рваные Джинсы"
+                  width={64}
                   onClick={() => {
                     setPants(2);
                   }}
                 />
                 <IconButton
-                  icon={hudi}
-                  title="Худи"
+                  icon={bruki}
+                  title="Брюки"
+                  width={64}
                   onClick={() => {
                     setPants(3);
                   }}
                 />
                 <IconButton
-                  icon={hudi}
-                  title="Худи"
+                  icon={bridgi}
+                  title="Бриджи"
+                  width={64}
+                  onClick={() => {
+                    setPants(4);
+                  }}
+                />
+              </div>
+            </div>
+            <div className="option-case">
+              <h3>Обувь:</h3>
+              <div className="buttons">
+                <IconButton
+                  icon={x_icon}
+                  title="Без штанов"
+                  width={64}
+                  onClick={() => {
+                    setPants(null);
+                  }}
+                />
+                <IconButton
+                  icon={shorts}
+                  title="Шорты"
+                  width={64}
+                  onClick={() => {
+                    setPants(1);
+                  }}
+                />
+                <IconButton
+                  icon={jeans}
+                  title="Рваные Джинсы"
+                  width={64}
+                  onClick={() => {
+                    setPants(2);
+                  }}
+                />
+                <IconButton
+                  icon={bruki}
+                  title="Брюки"
+                  width={64}
+                  onClick={() => {
+                    setPants(3);
+                  }}
+                />
+                <IconButton
+                  icon={bridgi}
+                  title="Бриджи"
+                  width={64}
                   onClick={() => {
                     setPants(4);
                   }}
@@ -209,7 +282,7 @@ const ConstructorPage: React.FC = () => {
           <div className="avatar-view">
             <div className="ui-bar">
               <h2>Персонаж</h2>
-              <IconButton title="" icon={save} onClick={saveCanvasAsPNG} />
+              <IconButton title="Сохранить изображение" width={32} icon={save} onClick={saveCanvasAsPNG} />
             </div>
             <div className="view-container">
               <CharacterView
