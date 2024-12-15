@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.API\\VirtualCharacter.API.csproj": {}
+    "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.API\\VirtualCharacter.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.API\\VirtualCharacter.API.csproj": {
+    "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.API\\VirtualCharacter.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.API\\VirtualCharacter.API.csproj",
+        "projectUniqueName": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.API\\VirtualCharacter.API.csproj",
         "projectName": "VirtualCharacter.API",
-        "projectPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.API\\VirtualCharacter.API.csproj",
+        "projectPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.API\\VirtualCharacter.API.csproj",
         "packagesPath": "C:\\Users\\bicks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.API\\obj\\",
+        "outputPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bicks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj"
+              "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Application\\VirtualCharacter.Application.csproj": {
+    "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Application\\VirtualCharacter.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Application\\VirtualCharacter.Application.csproj",
+        "projectUniqueName": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Application\\VirtualCharacter.Application.csproj",
         "projectName": "VirtualCharacter.Application",
-        "projectPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Application\\VirtualCharacter.Application.csproj",
+        "projectPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Application\\VirtualCharacter.Application.csproj",
         "packagesPath": "C:\\Users\\bicks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Application\\obj\\",
+        "outputPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bicks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Core\\VirtualCharacter.Core.csproj": {
-                "projectPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Core\\VirtualCharacter.Core.csproj"
+              "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Core\\VirtualCharacter.Core.csproj": {
+                "projectPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Core\\VirtualCharacter.Core.csproj"
               }
             }
           }
@@ -153,14 +153,14 @@
         }
       }
     },
-    "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Core\\VirtualCharacter.Core.csproj": {
+    "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Core\\VirtualCharacter.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Core\\VirtualCharacter.Core.csproj",
+        "projectUniqueName": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Core\\VirtualCharacter.Core.csproj",
         "projectName": "VirtualCharacter.Core",
-        "projectPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Core\\VirtualCharacter.Core.csproj",
+        "projectPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Core\\VirtualCharacter.Core.csproj",
         "packagesPath": "C:\\Users\\bicks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Core\\obj\\",
+        "outputPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bicks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj": {
+    "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj",
         "projectName": "VirtualCharacter.Infrastructure",
-        "projectPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\bicks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bicks\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -239,8 +239,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Application\\VirtualCharacter.Application.csproj": {
-                "projectPath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Application\\VirtualCharacter.Application.csproj"
+              "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Application\\VirtualCharacter.Application.csproj": {
+                "projectPath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Application\\VirtualCharacter.Application.csproj"
               }
             }
           }

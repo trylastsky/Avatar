@@ -22,3 +22,15 @@ C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Core\obj\Debug\ne
 C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Core\obj\Debug\net8.0\refint\VirtualCharacter.Core.dll
 C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Core\obj\Debug\net8.0\VirtualCharacter.Core.pdb
 C:\Users\bicks\Source\Repos\VirtualCharacters\VirtualCharacter.Core\obj\Debug\net8.0\ref\VirtualCharacter.Core.dll
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\bin\Debug\net8.0\VirtualCharacter.Core.deps.json
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\bin\Debug\net8.0\VirtualCharacter.Core.dll
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\bin\Debug\net8.0\VirtualCharacter.Core.pdb
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\obj\Debug\net8.0\VirtualCharacter.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\obj\Debug\net8.0\VirtualCharacter.Core.AssemblyInfoInputs.cache
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\obj\Debug\net8.0\VirtualCharacter.Core.AssemblyInfo.cs
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\obj\Debug\net8.0\VirtualCharacter.Core.csproj.CoreCompileInputs.cache
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\obj\Debug\net8.0\VirtualCharacter.Core.sourcelink.json
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\obj\Debug\net8.0\VirtualCharacter.Core.dll
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\obj\Debug\net8.0\refint\VirtualCharacter.Core.dll
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\obj\Debug\net8.0\VirtualCharacter.Core.pdb
+C:\Users\bicks\source\repos\Avatar\Avatar\Backend\VirtualCharacter.Core\obj\Debug\net8.0\ref\VirtualCharacter.Core.dll

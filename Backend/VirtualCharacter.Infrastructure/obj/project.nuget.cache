@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q6Ml/B8kUVs=",
+  "dgSpecHash": "IFNkaKkYMmk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bicks\\source\\repos\\VirtualCharacters\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\bicks\\source\\repos\\Avatar\\Avatar\\Backend\\VirtualCharacter.Infrastructure\\VirtualCharacter.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bicks\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\bicks\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VirtualCharacter.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73f242a0ca6084d86e4bdf8d5c64de0bbd293ba0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52d28f0ebc2169ea347dd269798fb73fe86757c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("VirtualCharacter.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VirtualCharacter.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
