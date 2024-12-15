@@ -14,11 +14,18 @@ import hair4 from "../assets/Avatar_components/hairs/hair4.svg";
 
 import hudi from "../assets/Avatar_components/outerwear/hudi.svg";
 import tshirt from "../assets/Avatar_components/outerwear/tshirt.svg";
+import bezrykavka from "../assets/Avatar_components/outerwear/bezrykavka.svg";
+import top from "../assets/Avatar_components/outerwear/top.svg";
 
 import shorts from "../assets/Avatar_components/pants/shorts.svg";
 import jeans from "../assets/Avatar_components/pants/jeans.svg";
 import bruki from "../assets/Avatar_components/pants/bruki.svg";
 import bridgi from "../assets/Avatar_components/pants/bridgi.svg";
+
+import sapogi from "../assets/Avatar_components/boots/sapogi.svg";
+import sledki from "../assets/Avatar_components/boots/sledki.svg";
+import krossy from "../assets/Avatar_components/boots/krossy.svg";
+import tapochki from "../assets/Avatar_components/boots/tapochki.svg";
 
 import male_cube from "../assets/icons/svg/male_cube.svg";
 import female_cube from "../assets/icons/svg/female_cube.svg";
@@ -56,12 +63,6 @@ const ConstructorPage: React.FC = () => {
             <div className="ui-bar">
               <h2>Настройки</h2>
               <div className="buttons-container">
-                <IconButton
-                  icon={save}
-                  title="Случайная генерация"
-                  width={32}
-                  onClick={() => console.log("cлучайная генерация")}
-                />
                 <IconButton
                   icon={refresh_icon}
                   title="Сбросить настройки"
@@ -171,16 +172,16 @@ const ConstructorPage: React.FC = () => {
                   }}
                 />
                 <IconButton
-                  icon={hudi}
-                  title="Худи"
+                  icon={bezrykavka}
+                  title="Безрукавка"
                   width={64}
                   onClick={() => {
                     setOuterwear(3);
                   }}
                 />
                 <IconButton
-                  icon={hudi}
-                  title="Худи"
+                  icon={top}
+                  title="Топик"
                   width={64}
                   onClick={() => {
                     setOuterwear(4);
@@ -238,42 +239,42 @@ const ConstructorPage: React.FC = () => {
               <div className="buttons">
                 <IconButton
                   icon={x_icon}
-                  title="Без штанов"
+                  title="Без Обуви"
                   width={64}
                   onClick={() => {
                     setPants(null);
                   }}
                 />
                 <IconButton
-                  icon={shorts}
-                  title="Шорты"
+                  icon={sapogi}
+                  title="Сапоги"
                   width={64}
                   onClick={() => {
-                    setPants(1);
+                    setBoots(1);
                   }}
                 />
                 <IconButton
-                  icon={jeans}
-                  title="Рваные Джинсы"
+                  icon={sledki}
+                  title="Туфли"
                   width={64}
                   onClick={() => {
-                    setPants(2);
+                    setBoots(2);
                   }}
                 />
                 <IconButton
-                  icon={bruki}
-                  title="Брюки"
+                  icon={krossy}
+                  title="Кроссовки"
                   width={64}
                   onClick={() => {
-                    setPants(3);
+                    setBoots(3);
                   }}
                 />
                 <IconButton
-                  icon={bridgi}
-                  title="Бриджи"
+                  icon={tapochki}
+                  title="Тапочки"
                   width={64}
                   onClick={() => {
-                    setPants(4);
+                    setBoots(4);
                   }}
                 />
               </div>

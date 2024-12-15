@@ -13,12 +13,22 @@ import hair4Image from "../../assets/Avatar_components/hairs/hair4.svg";
 //outerwear
 import hudiImage from "../../assets/Avatar_components/outerwear/hudi.svg"; //1
 import tshirtImage from "../../assets/Avatar_components/outerwear/tshirt.svg"; //2
+import bezrykavkaImage from "../../assets/Avatar_components/outerwear/bezrykavka.svg";
+import topImage from "../../assets/Avatar_components/outerwear/top.svg";
 
 //pants
 import shortsImage from "../../assets/Avatar_components/pants/shorts.svg"; //1
 import jeansImage from "../../assets/Avatar_components/pants/jeans.svg"; //2
 import brukiImage from "../../assets/Avatar_components/pants/bruki.svg"; //3
 import bridgiImage from "../../assets/Avatar_components/pants/bridgi.svg";
+
+
+//boots 
+import sapogiImage from "../../assets/Avatar_components/boots/sapogi.svg";
+import sledkiImage from "../../assets/Avatar_components/boots/sledki.svg";
+import krossyImage from "../../assets/Avatar_components/boots/krossy.svg";
+import tapochkiImage from "../../assets/Avatar_components/boots/tapochki.svg";
+
 
 import "./CharacterView.css";
 
@@ -51,12 +61,21 @@ const CharacterView: React.FC<CharacterCustomizationProps> = ({
 	//outerwear
 	const hudiImg = new Image();
 	const tshirtImg = new Image();
+  const bezrykavkaImg = new Image();
+  const topImg = new Image();
 
 	//pants
 	const shortsImg = new Image();
 	const jeansImg = new Image();
   const brukiImg = new Image();
   const bridgiImg = new Image();
+
+  //boots 
+  const sapogiImg = new Image();
+  const sledkiImg = new Image();
+  const krossyImg = new Image();
+  const tapochkiImg = new Image();
+
 
 	// Загрузка изображений
 	useEffect(() => {
@@ -70,12 +89,20 @@ const CharacterView: React.FC<CharacterCustomizationProps> = ({
 		//outerwear
 		hudiImg.src = hudiImage;
 		tshirtImg.src = tshirtImage;
+    bezrykavkaImg.src = bezrykavkaImage;
+    topImg.src = topImage;
 
 		//pants
 		shortsImg.src = shortsImage;
 		jeansImg.src = jeansImage;
     brukiImg.src = brukiImage;
     bridgiImg.src = bridgiImage;
+
+    //boots
+    sapogiImg.src = sapogiImage;
+    sledkiImg.src = sledkiImage;
+    krossyImg.src = krossyImage;  
+    tapochkiImg.src = tapochkiImage;
 	});
 
 	const drawCharacter = () => {
@@ -175,6 +202,24 @@ const CharacterView: React.FC<CharacterCustomizationProps> = ({
               tshirtImg.height * scaleFactor
             );
             break;
+          case 3:
+            ctx.drawImage(
+              bezrykavkaImg,
+              252,
+              170,
+              bezrykavkaImg.width * scaleFactor,
+              bezrykavkaImg.height * scaleFactor
+            );
+            break;
+            case 4:
+              ctx.drawImage(
+                topImg,
+                216,
+                160,
+                topImg.width * scaleFactor,
+                topImg.height * scaleFactor
+              );
+              break;
         }
   
         switch (pants) {
@@ -219,38 +264,38 @@ const CharacterView: React.FC<CharacterCustomizationProps> = ({
         switch (boots) {
           case 1:
             ctx.drawImage(
-              shortsImg,
-              244,
-              300,
-              shortsImg.width * scaleFactor,
-              shortsImg.height * scaleFactor
+              sapogiImg,
+              225,
+              412,
+              sapogiImg.width * scaleFactor,
+              sapogiImg.height * scaleFactor
             );
             break;
           case 2:
             ctx.drawImage(
-              jeansImg,
-              243,
-              300,
-              jeansImg.width * scaleFactor,
-              jeansImg.height * scaleFactor
+              sledkiImg,
+              222,
+              496,
+              sledkiImg.width * scaleFactor,
+              sledkiImg.height * scaleFactor
             );
             break;
           case 3:
               ctx.drawImage(
-                brukiImg,
-                243,
-                300,
-                brukiImg.width * scaleFactor,
-                brukiImg.height * scaleFactor
+                krossyImg,
+                224,
+                487,
+                krossyImg.width * scaleFactor,
+                krossyImg.height * scaleFactor
               );
               break;
           case 4:
                 ctx.drawImage(
-                  bridgiImg,
-                  244,
-                  300,
-                  bridgiImg.width * scaleFactor,
-                  bridgiImg.height * scaleFactor
+                  tapochkiImg,
+                  224,
+                  498,
+                  tapochkiImg.width * scaleFactor,
+                  tapochkiImg.height * scaleFactor
                 );
                 break;
         }

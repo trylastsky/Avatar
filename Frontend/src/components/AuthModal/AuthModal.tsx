@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { registrationPost, loginPost } from '../../services/api';
 import x_icon from "../../assets/icons/svg/X.svg";
 import './AuthModal.css';
@@ -19,10 +19,15 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         if(isRegister) registrationPost(username, email, phoneNumber,password).then(status => console.log(status));
         else if (!isRegister) loginPost(emailOrPhone, password).then(status => console.log(status));
+        localStorage.setItem('username', username);
+        localStorage.setItem('email', email);
+        localStorage.setItem('phoneNumber', phoneNumber);
         e.preventDefault();
         resetForm(); // Сбрасываем форму после отправки
         onClose(); // Закрываем модал
     };
+
+
 
 
 

@@ -6,6 +6,8 @@ const RegistrationRoute = "/api/User/Registration";
 
 const LoginRoute = "/api/User/Login";
 
+const getUserRoute = "/api/User/GetAuthenticatedUser";
+
 
 
 export const registrationPost = async (userName: string, email: string, phone: string, password: string) => {
@@ -37,6 +39,16 @@ export const loginPost = async (phoneOrEmail: string, password: string) => {
         
         const response = await axios.post(API_URL+LoginRoute, data);
         return response.status;
+    }
+    catch (e) {
+        console.log("Error" + e);
+    }
+}
+
+export const userGet = async () => {
+    try { 
+        const response = await axios.get(API_URL+getUserRoute);
+        return response.data;
     }
     catch (e) {
         console.log("Error" + e);
