@@ -84,3 +84,8 @@ h2 {
 h3 {
   font-size: 24px;
 }
+
+.space-beetwen {
+  display: flex;
+  justify-content: space-between;
+}
