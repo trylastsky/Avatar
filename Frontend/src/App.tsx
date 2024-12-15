@@ -17,7 +17,6 @@ function App() {
   return (
     <Router>
         <Header isModalAuthOpen={isModalAuthOpen} setModalAuthOpen={setModalAuthOpen}/>
-        <button onClick={() => setModalAuthOpen(true)}>Открыть модальное окно</button>
         <AuthModal isOpen={isModalAuthOpen} onClose={() => setModalAuthOpen(false)} />
       <Routes>
         <Route path="/" element={<ConstructorPage />} />

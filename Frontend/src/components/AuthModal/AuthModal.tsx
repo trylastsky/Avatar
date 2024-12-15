@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import IconButton from '../IconButton/IconButton';
+import x_icon from "../../assets/icons/svg/X.svg";
+
 import './AuthModal.css'; // Необходимо создать файл CSS для стилей модального окна
 
 const AuthModal:React.FC = ({ isOpen, onClose }) => {
@@ -31,20 +34,31 @@ const AuthModal:React.FC = ({ isOpen, onClose }) => {
             <div className="modal-content">
                 <div className='space-beetwen'>
                 <h2>{isRegister ? 'Регистрация' : 'Авторизация'}</h2>
-
+                <button className='close-button' onClick={onClose}><img src={x_icon} alt="X" /></button>
                 </div>
-             <div className="logo"><a href="#"><p>Avatar</p></a></div>
+             <div className="logo"><p>Avatar</p></div>
                 <form onSubmit={handleSubmit}>
+                    {isRegister && (<> 
+                        <h3>Имя пользователя</h3>
+                    <input
+                        type="username"
+                        placeholder="Введите ваше имя"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    /></>)}
+                    <h3>Телефон или почта</h3>
                     <input
                         type="email"
-                        placeholder="Email"
+                        placeholder="Введите вашу почту"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
                     />
+                      <h3>Пароль</h3>
                     <input
                         type="password"
-                        placeholder="Пароль"
+                        placeholder="Введите ваш пароль"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         required
@@ -57,7 +71,6 @@ const AuthModal:React.FC = ({ isOpen, onClose }) => {
                         {isRegister ? 'Войти' : 'Зарегистрироваться'}
                     </span>
                 </p>
-                <button className="close-button" onClick={onClose}>Закрыть</button>
             </div>
         </div>
     );

@@ -12,6 +12,9 @@
 }
 
 .modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     background: var(--color_gray);
     padding: 20px;
     border-radius: 8px;
@@ -27,8 +30,29 @@
     color: var(--color_white);
 }
 
+.modal-content button.close-button {
+    background: none;
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+    outline: none; 
+}
+
+.modal-content button.close-button img {
+    filter: brightness(20);
+    max-height: 32px;
+}
+
 .modal-content h2 {
-    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    font-family: var(--font_montserrat);
+}
+
+.modal-content h3 {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: var(--font_montserrat);
 }
 
 .modal-content form {
@@ -37,26 +61,27 @@
 }
 
 .modal-content input {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    height: 24px;
+    margin-bottom: 24px;
+    padding: 4px 12px;
+    border: 2px solid rgba(173, 177, 204, 0.6);
+    border-radius: 5px;
+    background-color: var(--color_white);
 }
 
 .modal-content button {
     padding: 10px;
     border: none;
-    border-radius: 4px;
-    background: #007bff;
-    color: white;
+    border-radius: 10px;
+    background: var(--color_white);
+    color: var(--color_gray);
     cursor: pointer;
 }
 
-.modal-content button.close-button {
-    background: #dc3545;
-}
 
 .toggle-form {
-    color: #007bff;
+    display: flex;
+    flex-direction: column;
+    color: var(--color_orange);
     cursor: pointer;
 }
